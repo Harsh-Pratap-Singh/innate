@@ -1,0 +1,1 @@
+"""Storefront capture & visualisation pipeline."""

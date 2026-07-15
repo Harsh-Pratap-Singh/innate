@@ -1,0 +1,31 @@
+# --- secrets (never commit) ---
+.env
+.env.*
+!.env.example
+
+# --- python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# --- pipeline run scratch (raw intermediate captures + composite attempts) ---
+out/
+
+# NOTE: web/data/ IS committed — it holds the delivered before/after images and
+# results.json that the deployed gallery serves. Only ignore local scratch in it:
+web/data/_scratch/
+
+# --- node / vercel (if ever added) ---
+node_modules/
+.vercel/
+
+# --- editor / OS cruft ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp

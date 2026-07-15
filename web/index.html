@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>In Bloom — Storefront Visualiser</title>
+  <meta name="description" content="Find independent London venues with bare frontages and show their real entrance dressed with the client's actual planters — fully automated." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="#top"><span class="leaf">&#10047;</span> In&nbsp;Bloom</a>
+      <div class="nav-links">
+        <a href="#how">How it works</a>
+        <a href="#gallery">Gallery</a>
+        <a href="editor.html">Editor</a>
+        <a href="../design.md">Design note</a>
+      </div>
+    </div>
+  </nav>
+
+  <header id="top" class="hero">
+    <div class="hero-bloom" aria-hidden="true"></div>
+    <div class="hero-inner reveal">
+      <p class="eyebrow">Storefront Visualiser</p>
+      <h1 class="hero-title">See your doorway<br /><em>in&nbsp;full&nbsp;bloom.</em></h1>
+      <p class="hero-sub">
+        We find independent London venues with bare frontages, photograph their real entrance,
+        and show it dressed with the client&rsquo;s actual planters — at true scale, fully automated.
+      </p>
+      <div id="stats" class="stats"></div>
+      <a class="scroll-cue" href="#how" aria-label="Scroll">&#8964;</a>
+    </div>
+  </header>
+
+  <section id="how" class="section how">
+    <div class="section-head reveal">
+      <p class="eyebrow center">How it works</p>
+      <h2 class="section-title center">Four steps. No human in the loop.</h2>
+      <p class="section-sub center">Every venue, framing and final image is chosen by code — the pipeline decides what&rsquo;s good enough to send.</p>
+    </div>
+    <div class="steps">
+      <div class="step-card reveal"><div class="step-ico">&#127793;</div><h3>Discover</h3><p>Pull independent cafés, salons &amp; restaurants from Google Places, filter out chains automatically.</p></div>
+      <div class="step-card reveal"><div class="step-ico">&#128247;</div><h3>Capture</h3><p>Re-aim Street View at the venue&rsquo;s own doorway with bearing math; a vision model checks the framing.</p></div>
+      <div class="step-card reveal"><div class="step-ico">&#127804;</div><h3>Compose</h3><p>Place the client&rsquo;s real planters into the photo at door-anchored scale — nothing else altered.</p></div>
+      <div class="step-card reveal"><div class="step-ico">&#10003;</div><h3>Vet</h3><p>A strict QA gate rejects anything unfaithful or unrealistic. Fail closed — never ship a bad image.</p></div>
+    </div>
+  </section>
+
+  <main id="gallery" class="section gallery"></main>
+
+  <section id="rejected-section" class="section rejected" hidden>
+    <div class="section-head reveal">
+      <p class="eyebrow center">Automated judgement</p>
+      <h2 class="section-title center">What the pipeline turned away.</h2>
+      <p class="section-sub center">Candidates discarded with no human in the loop — the decision-making itself, shown with stage and reason.</p>
+    </div>
+    <div id="rejected" class="rejected-grid"></div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <span class="brand"><span class="leaf">&#10047;</span> In&nbsp;Bloom</span>
+      <p id="foot" class="foot-note"></p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

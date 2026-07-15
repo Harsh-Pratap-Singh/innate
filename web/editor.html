@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>In Bloom — Planter Editor</title>
+  <meta name="description" content="Place the client's real planters onto any storefront photo yourself — drag, resize, flip, and download the composite." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="index.html"><span class="leaf">&#10047;</span> In&nbsp;Bloom</a>
+      <div class="nav-links">
+        <a href="index.html#how">How it works</a>
+        <a href="index.html#gallery">Gallery</a>
+        <a href="editor.html" class="active">Editor</a>
+        <a href="../design.md">Design note</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="editor-hero">
+    <p class="eyebrow center">Planter Editor</p>
+    <h1 class="section-title center">Place the planters <em>yourself.</em></h1>
+    <p class="section-sub center">
+      Pick a venue frontage or upload your own photo, then drag the client&rsquo;s real planters into place.
+      Scroll to resize, double-click to remove, press <kbd>R</kbd> to flip.
+    </p>
+  </header>
+
+  <main class="editor-wrap">
+    <!-- left: product panel -->
+    <aside class="editor-panel">
+      <h2 class="panel-title">Products</h2>
+      <div id="products" class="product-list" aria-label="Planter products"></div>
+
+      <div class="panel-divider"></div>
+
+      <h2 class="panel-title">Selected planter</h2>
+      <div id="item-controls" class="item-controls" data-empty="Click a planter on the photo to edit it.">
+        <label class="ctrl-row">
+          <span>Size</span>
+          <input id="size-slider" type="range" min="6" max="90" value="35" step="1" disabled />
+        </label>
+        <div class="ctrl-buttons">
+          <button id="flip-btn" class="btn ghost" disabled title="Flip horizontally (R)">&#8646; Flip</button>
+          <button id="delete-btn" class="btn ghost danger" disabled title="Remove (double-click)">&#10005; Remove</button>
+        </div>
+        <p class="ctrl-hint">Drag to move &middot; wheel to resize &middot; double-click to delete &middot; <kbd>R</kbd> flips.</p>
+      </div>
+    </aside>
+
+    <!-- right: canvas / stage -->
+    <section class="editor-main">
+      <div class="editor-toolbar">
+        <label class="tb-field">
+          <span class="tb-label">Photo</span>
+          <select id="venue-select" aria-label="Choose a venue photo"></select>
+        </label>
+        <input id="file-input" type="file" accept="image/*" hidden />
+        <button id="download-btn" class="btn primary" disabled>&#8615; Download PNG</button>
+      </div>
+
+      <div id="stage-outer" class="stage-outer">
+        <div id="stage" class="stage" hidden>
+          <img id="base-img" alt="storefront frontage" draggable="false" />
+          <!-- placed planters get appended here -->
+        </div>
+        <div id="stage-empty" class="stage-empty">
+          <p><b>No photo loaded.</b></p>
+          <p>Choose a venue above, or <button id="empty-upload" class="linklike">upload a photo</button> of any storefront.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <span class="brand"><span class="leaf">&#10047;</span> In&nbsp;Bloom</span>
+      <p class="foot-note">Editor composites are rendered locally in your browser at the photo&rsquo;s native resolution — nothing is uploaded anywhere.</p>
+    </div>
+  </footer>
+
+  <script src="editor.js"></script>
+</body>
+</html>

@@ -1,0 +1,675 @@
+{
+  "generated_at": "2026-07-15T11:22:43",
+  "delivered": 4,
+  "venues": [
+    {
+      "slug": "the-leather-exchange",
+      "name": "The Leather Exchange",
+      "address": "15 Leathermarket Street, London",
+      "postcode": "SE1 3ER",
+      "sku": {
+        "id": "square_white",
+        "name": "White square planters",
+        "material": "matte white composite"
+      },
+      "frontage_source": "mapillary",
+      "frontage": "data/the-leather-exchange/frontage.jpg",
+      "composite": "data/the-leather-exchange/composite.jpg",
+      "scale": {
+        "door_height_assumed_m": 2.05,
+        "door_ratio_pct": 56
+      }
+    },
+    {
+      "slug": "terra-rossa",
+      "name": "Terra Rossa",
+      "address": "139 Upper Street, London, N1 1QP",
+      "postcode": "N1 1QP",
+      "sku": {
+        "id": "square_white",
+        "name": "White square planters",
+        "material": "matte white composite"
+      },
+      "frontage_source": "mapillary",
+      "frontage": "data/terra-rossa/frontage.jpg",
+      "composite": "data/terra-rossa/composite.jpg",
+      "scale": {
+        "door_height_assumed_m": 2.05,
+        "door_ratio_pct": 56
+      }
+    },
+    {
+      "slug": "quality-chop-house",
+      "name": "Quality Chop House",
+      "address": "88-94 Farringdon Road, Islington, London, EC1R 3EA",
+      "postcode": "EC1R 3EA",
+      "sku": {
+        "id": "cylinder_charcoal",
+        "name": "Charcoal cylinder planter",
+        "material": "powder-coated fibreglass, matte charcoal"
+      },
+      "frontage_source": "mapillary",
+      "frontage": "data/quality-chop-house/frontage.jpg",
+      "composite": "data/quality-chop-house/composite.jpg",
+      "scale": {
+        "door_height_assumed_m": 2.05,
+        "door_ratio_pct": 54
+      }
+    },
+    {
+      "slug": "coach-horses",
+      "name": "Coach & Horses",
+      "address": "178 Stoke Newington High Street, London, N16 7JL",
+      "postcode": "",
+      "sku": {
+        "id": "square_white",
+        "name": "White square planters",
+        "material": "matte white composite"
+      },
+      "frontage_source": "mapillary",
+      "frontage": "data/coach-horses/frontage.jpg",
+      "composite": "data/coach-horses/composite.jpg",
+      "scale": {
+        "door_height_assumed_m": 2.05,
+        "door_ratio_pct": 56
+      }
+    }
+  ],
+  "rejected_candidates": [
+    {
+      "name": "Pret A Manger",
+      "address": "21 Exmouth Market, London, EC1R 4QD",
+      "stage": "pre-filter",
+      "reason": "looks like a chain (name blocklist)"
+    },
+    {
+      "name": "GAIL's",
+      "address": "33-35 Exmouth Market, London, EC1R 4QL",
+      "stage": "pre-filter",
+      "reason": "looks like a chain (name blocklist)"
+    },
+    {
+      "name": "Joe & The Juice",
+      "address": "297 Upper Street, London, N1 2TU",
+      "stage": "pre-filter",
+      "reason": "looks like a chain (name blocklist)"
+    },
+    {
+      "name": "Chameleon",
+      "address": "58 Cross Street, London",
+      "stage": "pre-filter",
+      "reason": "looks like a chain (name blocklist)"
+    },
+    {
+      "name": "KFC",
+      "address": "241 Upper Street, Islington, London, N1 1RU",
+      "stage": "pre-filter",
+      "reason": "looks like a chain (name blocklist)"
+    },
+    {
+      "name": "KFC",
+      "address": "192 Stoke Newington High Street, London, N16 7JD",
+      "stage": "pre-filter",
+      "reason": "looks like a chain (name blocklist)"
+    },
+    {
+      "name": "Franco Manca",
+      "address": "176 Stoke Newington High Street, London, N16 7JL",
+      "stage": "pre-filter",
+      "reason": "looks like a chain (name blocklist)"
+    },
+    {
+      "name": "GAIL's",
+      "address": "60-62 Stoke Newington Church Street, London, N16 0NB",
+      "stage": "pre-filter",
+      "reason": "looks like a chain (name blocklist)"
+    },
+    {
+      "name": "Costa",
+      "address": "131-133 Stoke Newington High Street, London, N16 0PJ",
+      "stage": "pre-filter",
+      "reason": "looks like a chain (name blocklist)"
+    },
+    {
+      "name": "Franco Manca",
+      "address": "124 Bermondsey Street, London, SE1 3TX",
+      "stage": "pre-filter",
+      "reason": "looks like a chain (name blocklist)"
+    },
+    {
+      "name": "GAIL's",
+      "address": "London",
+      "stage": "pre-filter",
+      "reason": "looks like a chain (name blocklist)"
+    },
+    {
+      "name": "Joe & The Juice",
+      "address": "96 Lordship Lane, London, SE22 8HF",
+      "stage": "pre-filter",
+      "reason": "looks like a chain (name blocklist)"
+    },
+    {
+      "name": "Maria's Tortilla",
+      "address": "120 Lordship Lane, London, SE22 8HD",
+      "stage": "pre-filter",
+      "reason": "looks like a chain (name blocklist)"
+    },
+    {
+      "name": "King's Head",
+      "address": "115 Upper Street, Islington, London, N1 1QN",
+      "stage": "capture",
+      "reason": "No actual street-level photo provided; image is an Instagram logo placeholder.; No entrance or storefront visible, so cannot assess usability or suitability.; No information about the venue 'King's Head' or its frontage can be determined from this image.",
+      "attempts": [
+        {
+          "source": "mapillary",
+          "index": 0,
+          "usable": false,
+          "image_id": "1243174697442185",
+          "distance_m": 23.5,
+          "heading": 245.7,
+          "heading_err": 58.4,
+          "file": "E:\\SWAITS\\SAITS_CODE\\innate-storefront\\out\\king-s-head\\map_0.jpg",
+          "locate": {
+            "found": true,
+            "name_confirmed": true,
+            "confidence": 0.95,
+            "bbox": [
+              0.71,
+              0.36,
+              0.92,
+              0.52
+            ],
+            "note": "The storefront on the right side of the street has a visible sign that reads 'King's Head', matching the target venue name.; The building fe"
+          },
+          "located_confidence": 0.95,
+          "crop": "E:\\SWAITS\\SAITS_CODE\\innate-storefront\\out\\king-s-head\\map_0_crop.jpg",
+          "reason": "Image is motion-blurred and not sharp enough for accurate mock-up creation; Entrance is not well-centred and partially obstructed by a parked car and red phone booth; Although the venue 'King's Head' is visible and matches the target business type, the poor image quality reduces usability"
+        },
+        {
+          "source": "mapillary",
+          "index": 1,
+          "usable": false,
+          "image_id": "757271196748857",
+          "distance_m": 32.3,
+          "heading": 224.8,
+          "heading_err": 43.5,
+          "file": "E:\\SWAITS\\SAITS_CODE\\innate-storefront\\out\\king-s-head\\map_1.jpg",
+          "locate": {
+            "found": false,
+            "name_confirmed": false,
+            "confidence": 0.0,
+            "bbox": null,
+            "note": "No clear storefront with pub-like features is visible near the center of the frame.; The right side shows a shopfront with floral decoration"
+          },
+          "reason": "no plausible storefront located: No clear storefront with pub-like features is visible near the center of the frame.; The right side shows a shopfront with floral decorations and a re"
+        },
+        {
+          "source": "mapillary",
+          "index": 2,
+          "usable": false,
+          "image_id": "1783711312502904",
+          "distance_m": 27.7,
+          "heading": 234.2,
+          "heading_err": 49.9,
+          "file": "E:\\SWAITS\\SAITS_CODE\\innate-storefront\\out\\king-s-head\\map_2.jpg",
+          "locate": {
+            "found": false,
+            "name_confirmed": false,
+            "confidence": 0.0,
+            "bbox": null,
+            "note": "No clear storefronts are visible in the center of the frame.; The image shows a wide street with vehicles and trees, but no identifiable pub"
+          },
+          "reason": "no plausible storefront located: No clear storefronts are visible in the center of the frame.; The image shows a wide street with vehicles and trees, but no identifiable pub or restau"
+        },
+        {
+          "source": "mapillary",
+          "index": 3,
+          "usable": false,
+          "image_id": "4213104795642757",
+          "distance_m": 38.1,
+          "heading": 226.0,
+          "heading_err": 47.4,
+          "file": "E:\\SWAITS\\SAITS_CODE\\innate-storefront\\out\\king-s-head\\map_3.jpg",
+          "locate": {
+            "found": false,
+            "name_confirmed": false,
+            "confidence": 0.0,
+            "bbox": null,
+            "note": "No visible storefronts on the right side of the street that resemble a pub or restaurant.; The left side features a large classical building"
+          },
+          "reason": "no plausible storefront located: No visible storefronts on the right side of the street that resemble a pub or restaurant.; The left side features a large classical building with colu"
+        },
+        {
+          "source": "venue_website",
+          "index": 0,
+          "usable": false,
+          "url": "https://img.kingsheadtheatre.com/3wWQh91aUYh7bHGk0PpNrfLRdrbPenA_3Ygnt2IIin8/c:1600:840:fp:0.5:0.33/s:1200:630:1/format:",
+          "reason": "No street-level entrance is visible; the image shows a wall of theater posters for 'King's Head Theatre' but not the actual storefront or entrance of a pub named 'King's Head'. The venue appears to be a theater, not a cafe, restaurant, bakery, salon, or similar independent street-facing business. Therefore, it does not meet the criteria for target business type or usability for planters mock-up.",
+          "file": "E:\\SWAITS\\SAITS_CODE\\innate-storefront\\out\\king-s-head\\web_0.jpg"
+        },
+        {
+          "source": "venue_website",
+          "index": 1,
+          "usable": false,
+          "url": "https://kingsheadtheatre.com/cms_files/Image/2.png",
+          "reason": "No street-level entrance or storefront is visible in the image. The image contains only a stylized 'X' logo on a black background, which does not depict any physical venue or building facade. Therefore, it cannot be assessed for usability or suitability for planters.",
+          "file": "E:\\SWAITS\\SAITS_CODE\\innate-storefront\\out\\king-s-head\\web_1.jpg"
+        },
+        {
+          "source": "venue_website",
+          "index": 2,
+          "usable": false,
+          "url": "https://kingsheadtheatre.com/cms_files/Image/1.png",
+          "reason": "No actual street-level photo provided; image is an Instagram logo placeholder.; No entrance or storefront visible, so cannot assess usability or suitability.; No information about the venue 'King's Head' or its frontage can be determined from this image.",
+          "file": "E:\\SWAITS\\SAITS_CODE\\innate-storefront\\out\\king-s-head\\web_2.jpg"
+        }
+      ]
+    },
+    {
+      "name": "The Rochester Castle",
+      "address": "143, 145 Stoke Newington High Street, London, N16 0NY",
+      "stage": "composite",
+      "reason": "The inserted planters are not corten steel; they appear to be wood or composite with a brown finish, not the rust-orange patina of weathered corten steel.; The planter scale is incorrect \u2014 it appears significantly larger than 60% of the door height, making it look oversized and unrealistic.; Scene integrity is compromised: the building facade, signage, windows, and pavement have been altered or warped in the AFTER image compared to the BEFORE image.; The planters do not sit properly on the ground \u2014 there is no believable contact shadow, and the base appears to float above the pavement.; Placement is problematic: the planters are positioned directly in front of the entrance, partially blocking the doorway and pedestrian path.; Obvious generation artifacts are present: distorted lines, unnatural lighting, and inconsistent textures suggest digital manipulation errors.",
+      "attempts": [
+        {
+          "attempt": 0,
+          "strategy": "edit",
+          "accepted": false,
+          "file": "E:\\SWAITS\\SAITS_CODE\\innate-storefront\\out\\the-rochester-castle\\composite_0.jpg",
+          "vision_qa": {
+            "identity_ok": false,
+            "scale_ok": false,
+            "scene_integrity_ok": false,
+            "grounding_ok": false,
+            "placement_ok": false,
+            "artifacts": true,
+            "accept": false,
+            "reasons": [
+              "The inserted planter is made of wood, not weathered corten steel with a rust-orange patina as in the reference \u2014 material and color are incorrect.",
+              "The planter is significantly larger than 60% of the door height \u2014 it appears oversized and unrealistic.",
+              "The signage on the building has been altered (e.g., 'TREE HOUSE' instead of 'THE ROCHESTER CASTLE') \u2014 scene integrity is compromised.",
+              "The planter does not sit properly on the ground; there is no believable contact shadow, and it appears to float slightly above the pavement.",
+              "The planter blocks part of the entrance pathway and overlaps the doorway \u2014 placement is obstructive.",
+              "There are visible artifacts: warped text on the sign, inconsistent lighting, and unnatural edges around the planter suggesting poor compositing."
+            ]
+          },
+          "integrity": {
+            "changed_fraction_above_zone": 0.0,
+            "changed_fraction_total": 1.0,
+            "ok": true,
+            "reframed": true
+          },
+          "reasons": [
+            "The inserted planter is made of wood, not weathered corten steel with a rust-orange patina as in the reference \u2014 material and color are incorrect.",
+            "The planter is significantly larger than 60% of the door height \u2014 it appears oversized and unrealistic.",
+            "The signage on the building has been altered (e.g., 'TREE HOUSE' instead of 'THE ROCHESTER CASTLE') \u2014 scene integrity is compromised.",
+            "The planter does not sit properly on the ground; there is no believable contact shadow, and it appears to float slightly above the pavement.",
+            "The planter blocks part of the entrance pathway and overlaps the doorway \u2014 placement is obstructive.",
+            "There are visible artifacts: warped text on the sign, inconsistent lighting, and unnatural edges around the planter suggesting poor compositing."
+          ]
+        },
+        {
+          "attempt": 1,
+          "strategy": "edit",
+          "accepted": false,
+          "file": "E:\\SWAITS\\SAITS_CODE\\innate-storefront\\out\\the-rochester-castle\\composite_1.jpg",
+          "vision_qa": {
+            "identity_ok": false,
+            "scale_ok": false,
+            "scene_integrity_ok": false,
+            "grounding_ok": false,
+            "placement_ok": false,
+            "artifacts": true,
+            "accept": false,
+            "reasons": [
+              "The inserted planters do not match the reference product: they are rectangular and flat-sided, while the reference shows a tiered cube design with stacked cubic forms.",
+              "The scale is incorrect \u2014 the planters appear significantly larger than 60% of the door height, making them look oversized and unrealistic.",
+              "Scene integrity is compromised: the building's signage, windows, and architectural details have been altered or warped, especially around the entrance area.",
+              "The planters are not properly grounded \u2014 they float above the pavement with no believable shadow or contact with the ground.",
+              "Placement is problematic: the planters are positioned too close to the doorway and partially block the entrance path.",
+              "Obvious generation artifacts are present: distorted edges, unnatural lighting, and inconsistent textures suggest digital manipulation errors."
+            ]
+          },
+          "integrity": {
+            "changed_fraction_above_zone": 0.0,
+            "changed_fraction_total": 1.0,
+            "ok": true,
+            "reframed": true
+          },
+          "reasons": [
+            "The inserted planters do not match the reference product: they are rectangular and flat-sided, while the reference shows a tiered cube design with stacked cubic forms.",
+            "The scale is incorrect \u2014 the planters appear significantly larger than 60% of the door height, making them look oversized and unrealistic.",
+            "Scene integrity is compromised: the building's signage, windows, and architectural details have been altered or warped, especially around the entrance area.",
+            "The planters are not properly grounded \u2014 they float above the pavement with no believable shadow or contact with the ground.",
+            "Placement is problematic: the planters are positioned too close to the doorway and partially block the entrance path.",
+            "Obvious generation artifacts are present: distorted edges, unnatural lighting, and inconsistent textures suggest digital manipulation errors."
+          ]
+        },
+        {
+          "attempt": 2,
+          "strategy": "edit",
+          "accepted": false,
+          "file": "E:\\SWAITS\\SAITS_CODE\\innate-storefront\\out\\the-rochester-castle\\composite_2.jpg",
+          "vision_qa": {
+            "identity_ok": false,
+            "scale_ok": false,
+            "scene_integrity_ok": false,
+            "grounding_ok": false,
+            "placement_ok": false,
+            "artifacts": true,
+            "accept": false,
+            "reasons": [
+              "The inserted planter is not the same product as the reference \u2014 it appears to be a wooden or composite material with a smooth, polished finish, not weathered corten steel with a rust-orange patina.",
+              "The scale of the planter is incorrect \u2014 it is significantly larger than 60% of the door height and appears oversized relative to the building.",
+              "Scene integrity is compromised \u2014 the original image has been altered; the entrance area shows signs of warping and distortion around the added planters.",
+              "The planter does not sit properly on the ground \u2014 it appears to float with no believable contact shadow or grounding.",
+              "Placement is problematic \u2014 the planter overlaps the doorway and sidewalk, obstructing access and violating placement rules.",
+              "Obvious generation artifacts are present: duplicated edges, unnatural lighting, and inconsistent shadows suggest AI-generated content."
+            ]
+          },
+          "integrity": {
+            "changed_fraction_above_zone": 0.0,
+            "changed_fraction_total": 1.0,
+            "ok": true,
+            "reframed": true
+          },
+          "reasons": [
+            "The inserted planter is not the same product as the reference \u2014 it appears to be a wooden or composite material with a smooth, polished finish, not weathered corten steel with a rust-orange patina.",
+            "The scale of the planter is incorrect \u2014 it is significantly larger than 60% of the door height and appears oversized relative to the building.",
+            "Scene integrity is compromised \u2014 the original image has been altered; the entrance area shows signs of warping and distortion around the added planters.",
+            "The planter does not sit properly on the ground \u2014 it appears to float with no believable contact shadow or grounding.",
+            "Placement is problematic \u2014 the planter overlaps the doorway and sidewalk, obstructing access and violating placement rules.",
+            "Obvious generation artifacts are present: duplicated edges, unnatural lighting, and inconsistent shadows suggest AI-generated content."
+          ]
+        },
+        {
+          "attempt": 3,
+          "strategy": "edit",
+          "accepted": false,
+          "file": "E:\\SWAITS\\SAITS_CODE\\innate-storefront\\out\\the-rochester-castle\\composite_3.jpg",
+          "vision_qa": {
+            "identity_ok": false,
+            "scale_ok": false,
+            "scene_integrity_ok": false,
+            "grounding_ok": false,
+            "placement_ok": false,
+            "artifacts": true,
+            "accept": false,
+            "reasons": [
+              "The inserted planters are not corten steel; they appear to be wood or composite with a brown finish, not the rust-orange patina of weathered corten steel.",
+              "The planter scale is incorrect \u2014 it appears significantly larger than 60% of the door height, making it look oversized and unrealistic.",
+              "Scene integrity is compromised: the building facade, signage, windows, and pavement have been altered or warped in the AFTER image compared to the BEFORE image.",
+              "The planters do not sit properly on the ground \u2014 there is no believable contact shadow, and the base appears to float above the pavement.",
+              "Placement is problematic: the planters are positioned directly in front of the entrance, partially blocking the doorway and pedestrian path.",
+              "Obvious generation artifacts are present: distorted lines, unnatural lighting, and inconsistent textures suggest digital manipulation errors."
+            ]
+          },
+          "integrity": {
+            "changed_fraction_above_zone": 0.0,
+            "changed_fraction_total": 1.0,
+            "ok": true,
+            "reframed": true
+          },
+          "reasons": [
+            "The inserted planters are not corten steel; they appear to be wood or composite with a brown finish, not the rust-orange patina of weathered corten steel.",
+            "The planter scale is incorrect \u2014 it appears significantly larger than 60% of the door height, making it look oversized and unrealistic.",
+            "Scene integrity is compromised: the building facade, signage, windows, and pavement have been altered or warped in the AFTER image compared to the BEFORE image.",
+            "The planters do not sit properly on the ground \u2014 there is no believable contact shadow, and the base appears to float above the pavement.",
+            "Placement is problematic: the planters are positioned directly in front of the entrance, partially blocking the doorway and pedestrian path.",
+            "Obvious generation artifacts are present: distorted lines, unnatural lighting, and inconsistent textures suggest digital manipulation errors."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chipotle",
+      "address": "49-51 Lordship Lane, London, SE22 8EP",
+      "stage": "capture",
+      "reason": "no street-level images within ~55 m facing the venue (1 images in area)",
+      "attempts": [
+        {
+          "source": "mapillary",
+          "usable": false,
+          "reason": "no street-level images within ~55 m facing the venue (1 images in area)"
+        }
+      ]
+    },
+    {
+      "name": "Isarn",
+      "address": "119 Upper Street, Islington, London, N1 1QP",
+      "stage": "capture",
+      "reason": "no plausible storefront located: No visible storefronts on the right side of the street appear to be a restaurant or cafe.; The left side features a large church-like building with no",
+      "attempts": [
+        {
+          "source": "mapillary",
+          "index": 0,
+          "usable": false,
+          "image_id": "1674328933285173",
+          "distance_m": 23.4,
+          "heading": 232.1,
+          "heading_err": 53.7,
+          "file": "E:\\SWAITS\\SAITS_CODE\\innate-storefront\\out\\isarn\\map_0.jpg",
+          "locate": {
+            "found": false,
+            "name_confirmed": false,
+            "confidence": 0.0,
+            "bbox": null,
+            "note": "No clear storefront is visible near the center of the frame that matches a restaurant named 'Isarn'.; The image shows a wide street with mul"
+          },
+          "reason": "no plausible storefront located: No clear storefront is visible near the center of the frame that matches a restaurant named 'Isarn'.; The image shows a wide street with multiple buil"
+        },
+        {
+          "source": "mapillary",
+          "index": 1,
+          "usable": false,
+          "image_id": "2818362145028748",
+          "distance_m": 29.5,
+          "heading": 218.9,
+          "heading_err": 43.6,
+          "file": "E:\\SWAITS\\SAITS_CODE\\innate-storefront\\out\\isarn\\map_1.jpg",
+          "locate": {
+            "found": false,
+            "name_confirmed": false,
+            "confidence": 0.0,
+            "bbox": null,
+            "note": "No clear storefronts are visible near the center of the frame that resemble a restaurant or cafe.; The right side shows a shop with a dark a"
+          },
+          "reason": "no plausible storefront located: No clear storefronts are visible near the center of the frame that resemble a restaurant or cafe.; The right side shows a shop with a dark awning and "
+        },
+        {
+          "source": "mapillary",
+          "index": 2,
+          "usable": false,
+          "image_id": "1430262681549569",
+          "distance_m": 36.5,
+          "heading": 208.4,
+          "heading_err": 36.6,
+          "file": "E:\\SWAITS\\SAITS_CODE\\innate-storefront\\out\\isarn\\map_2.jpg",
+          "locate": {
+            "found": false,
+            "name_confirmed": false,
+            "confidence": 0.0,
+            "bbox": null,
+            "note": "No clear storefront with signage resembling a restaurant is visible near the center of the frame.; The buildings on the right side have shop"
+          },
+          "reason": "no plausible storefront located: No clear storefront with signage resembling a restaurant is visible near the center of the frame.; The buildings on the right side have shopfronts, bu"
+        },
+        {
+          "source": "mapillary",
+          "index": 3,
+          "usable": false,
+          "image_id": "2409275799441107",
+          "distance_m": 33.4,
+          "heading": 221.2,
+          "heading_err": 47.1,
+          "file": "E:\\SWAITS\\SAITS_CODE\\innate-storefront\\out\\isarn\\map_3.jpg",
+          "locate": {
+            "found": false,
+            "name_confirmed": false,
+            "confidence": 0.0,
+            "bbox": null,
+            "note": "No visible storefronts on the right side of the street appear to be a restaurant or cafe.; The left side features a large church-like buildi"
+          },
+          "reason": "no plausible storefront located: No visible storefronts on the right side of the street appear to be a restaurant or cafe.; The left side features a large church-like building with no"
+        }
+      ]
+    },
+    {
+      "name": "Caphe House",
+      "address": "114 Bermondsey Street, London, SE1 3TX",
+      "stage": "capture",
+      "reason": "venue located but too small in frame (too far away)",
+      "attempts": [
+        {
+          "source": "mapillary",
+          "index": 0,
+          "usable": false,
+          "image_id": "488923105578529",
+          "distance_m": 50.4,
+          "heading": 338.7,
+          "heading_err": 7.8,
+          "file": "E:\\SWAITS\\SAITS_CODE\\innate-storefront\\out\\caphe-house\\map_0.jpg",
+          "locate": {
+            "found": true,
+            "name_confirmed": false,
+            "confidence": 0.65,
+            "bbox": [
+              0.0,
+              0.29,
+              0.11,
+              0.54
+            ],
+            "note": "The storefront on the left side of the frame at the beginning of the street has a sign that reads 'CAFE', which is consistent with the targe"
+          },
+          "reason": "venue located but too small in frame (too far away)"
+        }
+      ]
+    },
+    {
+      "name": "Uplands Cafe",
+      "address": "21 Upland Road, London, SE22 9EE",
+      "stage": "capture",
+      "reason": "venue located but too small in frame (too far away)",
+      "attempts": [
+        {
+          "source": "mapillary",
+          "index": 0,
+          "usable": false,
+          "image_id": "776318559690110",
+          "distance_m": 16.5,
+          "heading": 87.6,
+          "heading_err": 11.6,
+          "file": "E:\\SWAITS\\SAITS_CODE\\innate-storefront\\out\\uplands-cafe\\map_0.jpg",
+          "locate": {
+            "found": true,
+            "name_confirmed": false,
+            "confidence": 0.6,
+            "bbox": [
+              0.48,
+              0.51,
+              0.53,
+              0.59
+            ],
+            "note": "The camera is positioned at the known location of Uplands Cafe, and the central storefront on the right side of the street has a typical caf"
+          },
+          "reason": "venue located but too small in frame (too far away)"
+        },
+        {
+          "source": "mapillary",
+          "index": 1,
+          "usable": false,
+          "image_id": "328879062078817",
+          "distance_m": 33.6,
+          "heading": 91.5,
+          "heading_err": 6.6,
+          "file": "E:\\SWAITS\\SAITS_CODE\\innate-storefront\\out\\uplands-cafe\\map_1.jpg",
+          "locate": {
+            "found": true,
+            "name_confirmed": false,
+            "confidence": 0.65,
+            "bbox": [
+              0.12,
+              0.38,
+              0.29,
+              0.64
+            ],
+            "note": "The storefront on the left side of the frame, near the center, has a typical cafe-style appearance with large windows and a visible awning.;"
+          },
+          "reason": "venue located but too small in frame (too far away)"
+        },
+        {
+          "source": "mapillary",
+          "index": 2,
+          "usable": false,
+          "image_id": "3783313538464310",
+          "distance_m": 45.8,
+          "heading": 90.3,
+          "heading_err": 1.3,
+          "file": "E:\\SWAITS\\SAITS_CODE\\innate-storefront\\out\\uplands-cafe\\map_2.jpg",
+          "locate": {
+            "found": true,
+            "name_confirmed": false,
+            "confidence": 0.6,
+            "bbox": [
+              0.34,
+              0.47,
+              0.41,
+              0.62
+            ],
+            "note": "The storefront at the center of the frame appears to be a ground-floor commercial unit with large windows and a fascia typical of a cafe or "
+          },
+          "reason": "venue located but too small in frame (too far away)"
+        }
+      ]
+    },
+    {
+      "name": "Khops",
+      "address": "100 Farringdon Road, London, EC1R 3EA",
+      "stage": "capture",
+      "reason": "no plausible storefront located: No visible storefront with characteristics of a hairdresser (e.g., salon-style windows, signage, or awning) is present near the center of the frame.; ",
+      "attempts": [
+        {
+          "source": "mapillary",
+          "index": 0,
+          "usable": false,
+          "image_id": "272683604513645",
+          "distance_m": 50.8,
+          "heading": 282.2,
+          "heading_err": 40.1,
+          "file": "E:\\SWAITS\\SAITS_CODE\\innate-storefront\\out\\khops\\map_0.jpg",
+          "locate": {
+            "found": false,
+            "name_confirmed": false,
+            "confidence": 0.0,
+            "bbox": null,
+            "note": "No visible storefront with characteristics of a hairdresser (e.g., salon-style windows, signage, or awning) is present near the center of th"
+          },
+          "reason": "no plausible storefront located: No visible storefront with characteristics of a hairdresser (e.g., salon-style windows, signage, or awning) is present near the center of the frame.; "
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "unique_candidates": 298,
+    "passed_prefilter": 285,
+    "prefiltered_out": 13,
+    "attempted": 12,
+    "delivered": 4
+  },
+  "config": {
+    "stack": {
+      "discovery": "osm",
+      "imagery": "mapillary",
+      "ai": "qwen"
+    },
+    "door_height_m": 2.05,
+    "planter_door_ratio_band": [
+      0.28,
+      0.6
+    ],
+    "models": {
+      "judge": "qwen-vl-max",
+      "image": "qwen-image-edit"
+    }
+  }
+}
