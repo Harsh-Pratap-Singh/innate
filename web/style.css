@@ -301,3 +301,56 @@ kbd { font: 600 12px/1 ui-monospace, "SF Mono", Consolas, monospace; background:
 .prose .mermaid { background: var(--surface); border: 1px solid var(--line); border-radius: 14px;
   padding: 22px; margin: 20px 0; text-align: center; box-shadow: var(--shadow); }
 .prose hr { border: none; border-top: 1px solid var(--line); margin: 32px 0; }
+
+/* ============================================================
+   MOBILE / RESPONSIVE REFINEMENTS
+   ============================================================ */
+@media (max-width: 700px) {
+  /* nav becomes horizontally swipeable so links never overflow or wrap-break */
+  .nav-inner { padding: 0 16px; gap: 14px; }
+  .nav-links { gap: 18px; overflow-x: auto; -webkit-overflow-scrolling: touch;
+    scrollbar-width: none; -ms-overflow-style: none; }
+  .nav-links::-webkit-scrollbar { display: none; }
+  .nav-links a { flex: 0 0 auto; white-space: nowrap; }
+  .brand { flex: 0 0 auto; }
+
+  /* tighter vertical rhythm on small screens */
+  .section { padding: 60px 20px; }
+  .hero { padding: 60px 20px 56px; }
+  .gallery { gap: 56px; }
+  .section-head { margin-bottom: 36px; }
+}
+
+@media (max-width: 520px) {
+  .hero-title { font-size: clamp(28px, 9vw, 56px); }
+  .hero-sub { font-size: 16px; }
+  .nav-links { font-size: 13px; gap: 16px; }
+  .section-title { font-size: clamp(23px, 6.4vw, 32px); }
+
+  /* spec: two tidy columns instead of a squished auto-fit at 150px min */
+  .spec { grid-template-columns: 1fr 1fr; gap: 16px 14px; padding: 20px 0 0; }
+  .spec .s-v { font-size: 14px; }
+
+  /* rejected cards: single column (300px min was overflowing ~320px screens) */
+  .rejected-grid { grid-template-columns: 1fr; }
+
+  .compare .handle { width: 40px; height: 40px; margin: -20px 0 0 -20px; }
+  .venue-head h2 { font-size: clamp(22px, 6.6vw, 30px); }
+
+  /* editor: toolbar + controls stack full-width */
+  .editor-hero { padding: 40px 20px 24px; }
+  .editor-wrap { padding: 8px 16px 72px; }
+  .editor-toolbar { flex-direction: column; align-items: stretch; gap: 12px; }
+  .tb-field { max-width: none; flex: 1 1 auto; }
+  #download-btn { margin-left: 0; width: 100%; }
+  .ctrl-buttons { flex-wrap: wrap; }
+}
+
+/* design note: tables scroll instead of overflowing; diagrams fit the screen */
+@media (max-width: 620px) {
+  .doc { padding: 40px 18px 72px; }
+  .prose h2 { font-size: 21px; margin-top: 32px; }
+  .prose table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .prose .mermaid { padding: 12px; overflow-x: auto; }
+}
+.prose .mermaid svg { max-width: 100%; height: auto; }
