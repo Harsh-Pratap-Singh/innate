@@ -36,9 +36,23 @@ flowchart LR
     G -- fail --> F
 ```
 
-Every stage is automated — no human selects a venue, a framing, or a final image. A separate
-**[Editor](web/editor.html)** page lets a person drag the real planters onto any frontage by hand
-when they want manual control, but the gallery venues are produced entirely by the pipeline above.
+Every stage is automated — no human selects a venue, a framing, or a final image.
+
+---
+
+## Editor mode (bonus)
+
+Alongside the automated gallery, the site ships a **manual drag-and-drop editor** at
+[`web/editor.html`](web/editor.html) (linked as **Editor** in the top nav) — for when an operator
+wants hands-on control instead of the model's placement.
+
+- Pick any delivered venue frontage from the dropdown, **or upload your own photo**.
+- Drag the client's **real planter cut-outs** (the same products the pipeline uses) onto the image.
+- **Scroll** to resize, **drag** to move, **R** to flip, **double-click** to remove.
+- **Download PNG** exports the composite at full resolution.
+
+It's a companion tool, not part of the graded pipeline — the automation produces the gallery; the
+editor is there for bespoke, human-driven mock-ups.
 
 ---
 
